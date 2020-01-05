@@ -9,35 +9,37 @@
 </head>
 
 <body>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="workgen.html">Workout Generator</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<p>Welcome to Workoutinator!</p>
-	<p>This is our new and improved workout generator!</p>
-	<p>FACEPULLS EVERYDAY</p> 
-	<div>
-		<p>Here you can generate a workout from our current exercises and perhaps if you want to you can add some new exercises or update some of those that we already have too.</p>
-		<input type="text" class="form" name="name" id="formName" placeholder="Name">
-		<input type="text" class="form" name="name" id="formDesc" placeholder="Exercise Description">
-		<button type="button" class="btn" id="addButton">Add</button>
-		<button type="button" class="btn" id="updateButton" disabled>Update</button>
-	</div>
-	<div>
-		<button type="button" class="btn" id="generateButton">Generate Workout</button>
-	</div>
-	<div id='exlist' class="exlist"></div>
+	<div class = "wrapper">
+		<nav class = "menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="workgen.html">Generator</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<p>Welcome to Workoutinator!</p>
+		<p>This is our new and improved workout generator!</p>
+		<p>FACEPULLS EVERYDAY</p> 
+		<div>
+			<p>Here you can generate a workout from our current exercises and perhaps if you want to you can add some new exercises or update some of those that we already have too.</p>
+			<input type="text" class="form" name="name" id="formName" placeholder="Name">
+			<input type="text" class="form" name="name" id="formDesc" placeholder="Exercise Description">
+			<button type="button" class="btn" id="addButton">Add</button>
+			<button type="button" class="btn" id="updateButton" disabled>Update</button>
+		</div>
+		<div>
+			<button type="button" class="btn" id="generateButton">Generate Workout</button>
+		</div>
+		<div id='exlist' class="exlist"></div>
 
-	<div>
-		<p>And here you can see all our exercises.</p>
-		<button type="button" class="btn" id="showButton">Show All</button>
-	</div>
-	<div id='listall' class="listall"></div>
+		<div>
+			<p>And here you can see all our exercises.</p>
+			<button type="button" class="btn" id="showButton">Show All</button>
+		</div>
+		<div id='listall' class="listall"></div>
 
-	<footer>Cristian Bleotiu &copy; 2020</footer>
-	<script src="script.js"></script>
+		<footer>Cristian Bleotiu &copy; 2020</footer>
+		<script src="script.js"></script>
+	</div>
 </body>

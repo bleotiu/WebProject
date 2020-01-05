@@ -3,26 +3,51 @@
     --dark: #333;
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);  /* Shadow around the boxes */
+    background: #ccc;
+    font-size: 1.1rem;
+    color:blue;
+}
+/*Wrapper*/
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
 }
 
-nav > ul{
-    background: grey;
-    padding: 1rem;
-    font-style:serif;
-}
-nav > ul > li{
-    display: inline;
-    background: blue;
-    color:white;
-    padding: 1rem;
-}
-a{
-    color:white;
-}
 img{
-    padding: 0;
     width: 100%;
-    height: 30%;
+    height: 25%;
+}
+
+/*Navigation*/
+.menu{
+    background: #30d5c8;
+    padding: 1rem;
+}
+.menu ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+}
+
+.menu a:hover {
+    background: var(--dark);
+    color: var(--light);
 }
 
 .list{
@@ -33,6 +58,7 @@ img{
     align-items: center;
 }
 
+/*workgen*/
 div{
     padding: 0;
     margin: 0;
@@ -41,14 +67,47 @@ div{
 div#exlist.exlist{
     padding: 0;
     margin: 0;
-    background: grey;
     color: green;
 }
 
-#workgen-exlist-p{
-
+.workgen-p {
+    font-size: 1.2rem;
+    margin-right: 25px;
 }
 
+.workgen-exlist-p{
+    font-size: 1.4rem;
+    margin-right: 35px;
+}
+
+.script-btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    margin: 3px;
+}
+
+
+.form {
+    background: var(--light);
+    color: var(--dark);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+.btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+
+/*Footer*/
 footer{
     background: #555;
     color: #EEE;
