@@ -1,0 +1,58 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);  /* Shadow around the boxes */
+}
+
+nav > ul{
+    background: grey;
+    padding: 1rem;
+    font-style:serif;
+}
+nav > ul > li{
+    display: inline;
+    background: blue;
+    color:white;
+    padding: 1rem;
+}
+a{
+    color:white;
+}
+img{
+    padding: 0;
+    width: 100%;
+    height: 30%;
+}
+
+.list{
+    margin-top: 20px;
+}
+.list > div{
+    display: flex;
+    align-items: center;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
+div#exlist.exlist{
+    padding: 0;
+    margin: 0;
+    background: grey;
+    color: green;
+}
+
+#workgen-exlist-p{
+
+}
+
+footer{
+    background: #555;
+    color: #EEE;
+    text-align: center;
+    margin: 2rem 0 0 0; 
+    padding:1rem;
+}
