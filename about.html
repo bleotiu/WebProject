@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 <body>
 	<div class = "wrapper">	
 		<nav class = "menu">
-			<ul>
+			<ul id='menulist' class='menulist'>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="workgen.html">Generator</a></li>
 				<li><a href="about.html">About</a></li>
@@ -19,6 +19,10 @@
 			</ul>
 		</nav>
 		<p>We created this to help you choose your workout plan.</p> 
-		<footer>Cristian Bleotiu &copy 2020</footer>
+		<button type="button" class="btn" id="hideButton">Hide Images</button>
+		<footer id='footer'>Cristian Bleotiu &copy; 2020</footer>
+		<img src="images/biceps.jpg" class="biceps" id="biceps">
+		<script src="script.js"></script>
 	</div>
 </body>
+</html>

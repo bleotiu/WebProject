@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang = "en">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,11 @@
 </head>
 
 <body>
-	<div clas = "wrapper">	
+	<input type = "text" class = "password" id = "password"
+	onkeypress="return checkPassword(event)">
+	<div class = "wrapper">	
 		<nav class = "menu">
-			<ul>
+			<ul id='menulist' class='menulist'>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="workgen.html">Generator</a></li>
 				<li><a href="about.html">About</a></li>
@@ -21,6 +23,8 @@
 		<p>Email : bleotiucristian@yahoo.com</p>
 		<p>Github : <a href="https://github.com/bleotiu">github.com/bleotiu</a></p>
 
-		<footer>Cristian Bleotiu &copy 2020</footer>
+		<footer id='footer'>Cristian Bleotiu &copy; 2020</footer>
+		<script src="script.js"></script>
 	</div>
 </body>
+</html>
